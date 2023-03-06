@@ -1,0 +1,230 @@
+head:
+  title: "Kenneth Odoh's Data Science Portfolio"
+  
+# showcase
+showcase:
+  enable: true
+  title: "Hello, I’m Kenneth Odoh."
+  subtitle: "Data Analyst"
+  description: "I am a data analyst who helps businesses make informed decisions through data. I am driven by inquisitiveness and prioritize <b>why</b> over <b>what</b>."
+  image:
+    x: "img/showcase/showcase-1.gif"
+    # _2x: "img/showcase/showcase@2x.png"
+    _2x: "img/showcase/showcase-1.gif"
+  imageMobile:
+    x: "img/showcase/showcase-1.gif"
+
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Contact Kenneth"
+    URL: "mailto:kennethodoh30@gmail.com"
+
+  socialLinks:
+    - icon: "linkedin"
+      URL: "https://www.linkedin.com/in/kenneth-odoh/"
+
+    - icon: "github"
+      URL: "https://github.com/kennethodoh"
+
+    - icon: "twitter"
+      URL: "https://twitter.com/kennethodoh10"
+
+    - icon: "whatsapp"
+      URL: "https://wa.link/fcobe9"
+
+    # - icon: "behance"
+    #   URL: "https://www.behance.net"
+
+    # - icon: "youtube"
+    #   URL: "https://www.youtube.com"
+
+    # - icon: "instagram"
+    #   URL: "https://www.instagram.com"
+
+    # - icon: "facebook"
+    #   URL: "https://www.facebook.com"
+
+    # - icon: "codepen"
+    #   URL: "#"
+
+    # - icon: "yelp"
+    #   URL: "https://www.yelp.com/"
+
+# about
+about:
+  enable: true
+  title: "Who am I?"
+  content: 
+    <p class="lead">
+    I love using data to solve problems and building intelligent software systems that leverage data to automate rigorous processes.</br></br>
+    I am skilled in gathering, <strong>cleaning, extracting, and communicating insights from data</strong> using machine learning algorithms and statistical techniques, with proficiency in <strong>Python</strong> and <strong>SQL</strong>.</p>
+    <p class="lead">
+    I have a background in Electronic Engineering and am also a digital marketer.
+    When I am not working on a project or reading a book, I am planning for the next adventure tour 🚶🏿‍♂️ <i class="fa-regular fa-person-hiking"></i> with my friends 
+    </p>
+  button:
+    icon: "icon-smile-fill"
+    btnText: "About Me"
+    URL: "https://www.linkedin.com"
+  image:
+    x: "img/who-am-i/kenneth-odoh.png"
+    _2x: "img/who-am-i/kenneth-odoh@2x.png"
+
+# experience
+experience:
+  enable: true
+  title: "Experience"
+  description: "I have worked on projects that cut across multiple industries, and collaborated effectively to deliver quality outputs in fast-paced environments"
+  button:
+    icon: "icon-linkedin-fill"
+    btnText: "Linkedin"
+    URL: "https://www.linkedin.com/"
+  button2:
+    icon: "icon-profile-fill"
+    btnText: "Download My Resume"
+    URL: "https://drive.google.com/file/d/1M68zWNj2CY66OHATOtyfWHA4PIGwJ0Iw/view?usp=share_link"
+
+  items:
+    - title: "Data Storytelling Intern"
+      company: "Hamoye AI Lab"
+      duration: "Oct 2022 - Mar 2023"
+
+    - title: "Data Analyst Volunteer"
+      company: "Viz For Social Good"
+      duration: "Sep 2022 - present"
+      
+# education
+education:
+  enable: true
+  title: "Education"
+  items:
+    - university: "University of Nigeria, Nsukka"
+      year: "2017 - 2022"
+      degree: "Bachelor of Engineering"
+
+    - university: "Udacity"
+      year: "2022 - 2022"
+      degree: "Nanodegree in Data Analytics"
+
+
+# Client & Work
+client_and_work:
+  title: "Portfolio"
+  enable: true
+
+  # enable_clients: false
+  # clients:
+  #   - logo:
+  #       x: "img/clients/asgardia.png"
+  #       _2x: "img/clients/asgardia@2x.png"
+  #     alt: "Asgardia"
+
+  #   - logo:
+  #       x: "img/clients/earth-2.png"
+  #       _2x: "img/clients/earth-2@2x.png"
+  #     alt: "Earth 2.0"
+
+  #   - logo:
+  #       x: "img/clients/goldline.png"
+  #       _2x: "img/clients/goldline@2x.png"
+  #     alt: "Goldline"
+
+  #   - logo:
+  #       x: "img/clients/kanba.png"
+  #       _2x: "img/clients/kanba@2x.png"
+  #     alt: "Kanba"
+
+  #   - logo:
+  #       x: "img/clients/zoo-tv.png"
+  #       _2x: "img/clients/zoo-tv@2x.png"
+  #     alt: "Zoo"
+
+  #   - logo:
+  #       x: "img/clients/ztos.png"
+  #       _2x: "img/clients/ztos@2x.png"
+  #     alt: "Ztos"
+  works:
+    - title: "Skin Cancer Classification using AI"
+      description: "This project uses Artificial intelligence to detect and classify skin cancers, and makes initial diagnostics possible for anyone. It comes with a web app built with Streamlit."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://medium.com/@kennethodoh/skin-cancer-classification-using-ai-45cdf70e808c"
+      image:
+        x: "img/works/cancer.jpg"
+        _2x: "img/works/cancer@2x.jpg"
+      is_even: true
+
+    - title: "Thought For Food"
+      description: "This project evaluates trends in food production and consumption over a decade. With the insights gathered, I created a narrative to help policymakers address global food insecurity."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://github.com/KennethOdoh/thought-for-food"
+      image:
+        x: "img/works/tff.jpg"
+        _2x: "img/works/tff@2x.jpg"
+      is_even: false
+
+    - title: "Canada Immigrations"
+      description: "In this project, I used Python libraries to scrape data from the Canada immigration authority website.
+      The aim was to investigate allegations of bias of the immigration officers and help intending immigrants make more informed decisions."
+      button:
+        icon: "icon-arrow-right"
+        btnText: "View Project"
+        URL: "https://github.com/KennethOdoh/why-canada"
+      image:
+        x: "img/works/canada.jpg"
+        _2x: "img/works/canada@2x.jpg"
+      is_even: true
+
+# testimonial
+testimonial:
+  enable: true
+  title: "Testimonials"
+  items:
+  
+    - name: "Promise Echerem Uzoagulu"
+      position: "Data Scientist"
+      content: "Kenneth and I both worked in the same team as an intern at Hamoye AI Lab. He has excellent data storytelling skills and also good leadership skills."
+      image:
+        x: "img/testimonials/promise.jpg"
+        _2x: "img/testimonials/promise.jpg"
+
+    - name: "Divine Chukwudi"
+      position: "Product Designer"
+      content: "He strives for excellence and is a valuable team player. He is a top performer who inspired us to give our best."
+      image:
+        x: "img/testimonials/divine.png"
+        _2x: "img/testimonials/divine.png"
+# contact
+contact:
+  enable: true
+  title: "Contact Kenneth"
+    
+  image:
+    x: "img/who-am-i/user-picture-2.jpg"
+    _2x: "img/who-am-i/user-picture-2.jpg"
+    
+    
+  phone:
+    title: "Phone Number"
+    number: "+234-906-7492-687"
+  email:
+    title: "Email"
+    email: '<a href="mailto:kennethodoh30@gmail.com">kennethodoh30@gmail.com</a>'
+  address:
+    title: "Address"
+    address: "Enugu, <br />Nigeria."
+  button:
+    icon: "icon-mail-fill"
+    btnText: "Send Message"
+    btnAction: 'mailto:kennethodoh30@gmail.com'
+
+# # newsletter
+# newsletter:
+#   enable: true
+#   title: "Newsletter subscription"
+#   success_message: "Successfully subscribed"
+#   error_message: "Error while subscribing."
+#   note: "We'll never share your email with anyone else."
